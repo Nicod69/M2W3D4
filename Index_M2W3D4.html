@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style_m2w3d4.css">    
+    <title>M2W2D4-Esercizio Pratica Javascript</title>
+   </head>
+   <body>
+    <div class="main-container">
+        <h1>ESERCIZI M2W3D4 - Negozio E-COMMERCE </h1>
+        <div>
+          <table class="table-product" id="table-product"><th colspan="5"> Offerte del giorno</th>
+            <tr><td><img src="img/telecamera.jpg" alt="Telecamera Outdoor di sicurezza in HD, senza fili"></td><td><span class="title-product">Telecamera Blink</span></td><td>Telecamera Outdoor di sicurezza in HD, senza fili,</td><td><span class="price-product">€ 1290,00</span></td><td><a class="listing_item_button" href="" target="_blank"><span>Vedi</span></a></td></tr>
+            <tr><td><img src="img/firestick.jpg" alt="Amazon Fire TV Stick con telecomando"></td><td><span class="title-product">Amazon Fire Stick</span></td><td>Amazon Fire Stick con telecomando vocale Alexa</td><td><span class="price-product">€ 1290,00</span></td><td><a class="listing_item_button" href="https://www.amazon.it/fire-tv-stick-con-telecomando-vocale-alexa/dp/B08C1KN5J2?ref=dlx_deals_dg_dcl_B08C1KN5J2_dt_sl14_34" target="_blank"><span>Vedi</span></a></td></tr>
+            <tr><td><img src="img/hisense.jpg" alt="Televisore 65'' Hisense 4K UHD"></td><td><span class="title-product">Televisore Hisense</span></td><td>Televisore Hisense 65" UHD 4K 65E63KT</td><td><span class="price-product">€ 870,00</span></td><td><a class="listing_item_button" href="" target="_blank"><span>Vedi</span></a></td></tr>
+            <tr><td><img src="img/s23.jpg" alt="Samsung Galaxy S23 Ultra Android"></td><td><span class="title-product">Samsung Galaxy S23 Ultra</span></td><td>Samsung Galaxy S23 Ultra, Android</td><td><span class="price-product">€ 870,00</span></td><td><a class="listing_item_button" href="" target="_blank"><span>Vedi</span></a></td></tr>
+            <tr><td><img src="img/piastra.jpg" alt="Piastra per capelli ghd Platinum + Styler"></td><td><span class="title-product">ghd Platinum + Styler</span></td><td>ghd Platinum + Styler. Piastra per capelli professionale</td><td><span class="price-product">€ 870,00</span></td><td><a class="listing_item_button" href="" target="_blank"><span>Vedi</span></a></td></tr>
+        </table>
+        </div>
+
+        <div class="form-container">
+          <form method="post">
+            <div class="div-form">
+              <input type="textarea" class="txt" name=txtComment placeholder="Inserisci un tuo commento" value="">
+              <input type="submit" name=btnSend id="btn-send" value="Invia">
+          </div> 
+          </form>  
+        </div>
+        <input type="button" onclick="changePageColor()" value="CAMBIA COLORE DI SFONDO">
+        <input type="button" onclick="changeClass('newImageClass')" value="CAMBIA CLASSE ALLE IMMAGINI">
+        <input type="button" onclick="changePriceColor('newPriceClass')" value="CAMBIA COLORE AI PREZZI">
+
+    </div>
+    <footer><a href="#">Contatti</a></footer>
+    <script type="text/Javascript" src="./js/script_m2w3d4.js"></script>
+   </body>
+</html>
+
